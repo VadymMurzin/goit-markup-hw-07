@@ -37,7 +37,8 @@ img {
 }
 
 .container {
-  width: 1158px;
+  /* width: 1158px; */
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -82,16 +83,22 @@ img {
 }
 
 .section-suptitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  text-align: center;
+  /* font-weight: 500; */
+  font-weight: 700;
+  /* font-size: 20px; */
+  font-size: 36px;
+  /* line-height: 1.2; */
+  line-height: 1.11;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
 
 .section-text {
   font-style: normal;
-  font-weight: 400;
+  margin-bottom: 72px;
+  /* font-weight: 400; */
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -245,26 +252,32 @@ img {
 /* ----------------- ADVANTAGES ---------------------- */
 
 .advantages {
+  padding-left: 16px;
+  padding-right: 16px;
   padding-bottom: 0px;
 }
 
 .advantages-list {
-  display: flex;
-  gap: 24px;
+  /* display: flex; */
+  /* gap: 24px; */
 }
 
 .advantages-item {
-  min-width: 264px;
+  /* min-width: 264px; */
+  width: 100%;
+  display: list-item;
+  column-gap: 72px;
 }
 
 .advantages-item-container {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  display: none;
+  /* justify-content: center;
   align-items: center;
   height: 112px;
   margin-bottom: 8px;
   background: var(--cloud);
-  border-radius: 4px;
+  border-radius: 4px; */
 }
 
 /* ----------------- DOING ---------------------- */

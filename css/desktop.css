@@ -1,0 +1,41 @@
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+  }
+
+  .section-suptitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .section-text {
+    font-weight: 400;
+  }
+
+  .advantages {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .advantages-list {
+    flex-wrap: nowrap;
+    display: flex;
+    gap: 24px;
+  }
+
+  .advantages-item {
+    min-width: 264px;
+  }
+
+  .advantages-item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    margin-bottom: 8px;
+    background: var(--cloud);
+    border-radius: 4px;
+  }
+}

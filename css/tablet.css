@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  .section-suptitle {
+    text-align: left;
+  }
+
+  .advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+
+  .advantages-item {
+    max-width: 356px;
+    display: inline-block;
+  }
+}
