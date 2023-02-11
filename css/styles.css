@@ -257,34 +257,20 @@ img {
   padding-bottom: 0px;
 }
 
-.advantages-list {
-  /* display: flex; */
-  /* gap: 24px; */
-}
-
 .advantages-item {
-  /* min-width: 264px; */
   width: 100%;
   display: list-item;
   column-gap: 72px;
 }
 
 .advantages-item-container {
-  /* display: flex; */
   display: none;
-  /* justify-content: center;
-  align-items: center;
-  height: 112px;
-  margin-bottom: 8px;
-  background: var(--cloud);
-  border-radius: 4px; */
 }
 
 /* ----------------- DOING ---------------------- */
 
-.list-doing {
-  display: flex;
-  gap: 24px;
+.section-doing-off {
+  display: none;
 }
 
 /* ----------------- TEAM ---------------------- */
@@ -293,9 +279,32 @@ img {
   background: var(--cloud);
 }
 
+.team-suptitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--navy-blue);
+}
+
+.team-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
 .list-team {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 82px;
+  padding-right: 82px;
+  gap: 72px;
 }
 
 .team-content {
@@ -323,7 +332,6 @@ img {
 .team-social-link {
   width: 100%;
   height: 100%;
-  /* display: block; */
   background: var(--iris);
   border-radius: 50%;
   display: flex;

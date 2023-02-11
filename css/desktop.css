@@ -13,6 +13,8 @@
     font-weight: 400;
   }
 
+  /* ----------------- ADVANTAGES ---------------------- */
+
   .advantages {
     padding-left: 0px;
     padding-right: 0px;
@@ -37,5 +39,27 @@
     margin-bottom: 8px;
     background: var(--cloud);
     border-radius: 4px;
+  }
+
+  /* ----------------- DOING ---------------------- */
+
+  .section-doing-off {
+    display: flex;
+  }
+
+  .list-doing {
+    display: flex;
+    gap: 24px;
+  }
+
+  /* ----------------- TEAM ---------------------- */
+
+  .list-team {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-left: 156px;
+    padding-right: 156px;
+    gap: 24px;
   }
 }

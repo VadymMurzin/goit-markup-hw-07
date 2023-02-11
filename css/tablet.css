@@ -17,4 +17,16 @@
     max-width: 356px;
     display: inline-block;
   }
+
+  /* ----------------- TEAM ---------------------- */
+
+  .list-team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 108px;
+    padding-right: 0;
+    gap: 24px;
+  }
 }
