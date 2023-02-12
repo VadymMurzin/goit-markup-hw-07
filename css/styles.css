@@ -348,8 +348,12 @@ img {
 /* ----------------- CUSTOMERS ---------------------- */
 
 .customers-list {
-  display: flex;
-  gap: 24px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 72px;
+  column-gap: 24px;
 }
 .customers-item {
   width: 168px;
