@@ -1,6 +1,8 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+
+    padding-right: 0;
   }
 
   .section-suptitle {
@@ -8,6 +10,7 @@
   }
 
   .advantages-list {
+    min-width: 768px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -20,6 +23,10 @@
 
   /* ----------------- TEAM ---------------------- */
 
+  .team-container {
+    /* padding-left: 108px; */
+  }
+
   .list-team {
     display: flex;
     flex-direction: row;
@@ -28,5 +35,51 @@
     padding-left: 108px;
     padding-right: 0;
     gap: 24px;
+  }
+
+  .customers-list {
+    padding-left: 108px;
+    justify-content: left;
+  }
+
+  /* ----------------- FOOTER ---------------------- */
+
+  .footer {
+    min-width: 768px;
+    /* padding-left: 0;
+    padding-right: 0; */
+    text-align: left;
+    justify-content: center;
+  }
+
+  .footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: normal;
+    padding-left: 108px;
+  }
+
+  .footer-logo {
+    margin-left: 0px;
+  }
+
+  .footer-text {
+    margin-left: 0;
+  }
+
+  .footer-studio {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 24px;
+  }
+
+  .footer-subscribe {
+    display: block;
+    text-align: left;
+  }
+
+  .footer-email {
+    width: 264px;
   }
 }

@@ -43,7 +43,6 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid tomato; */
 }
 
 .section {
@@ -251,15 +250,20 @@ img {
 
 /* ----------------- ADVANTAGES ---------------------- */
 
-.advantages {
+.advantages-container {
+  min-width: 428px;
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 0px;
 }
 
+.advantages-list {
+  max-width: 428px;
+}
+
 .advantages-item {
   width: 100%;
-  display: list-item;
+  /* display: list-item; */
   column-gap: 72px;
 }
 
@@ -276,6 +280,7 @@ img {
 /* ----------------- TEAM ---------------------- */
 
 .team {
+  min-width: 420px;
   background: var(--cloud);
 }
 
@@ -347,8 +352,14 @@ img {
 
 /* ----------------- CUSTOMERS ---------------------- */
 
+.customers-container {
+  min-width: 420px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 .customers-list {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -380,19 +391,32 @@ img {
 /* ----------------- FOOTER ---------------------- */
 
 .footer {
+  min-width: 428px;
   background-color: var(--navy-blue);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .footer-flex {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-studio {
-  max-width: 264px;
+  min-width: 264px;
 
-  margin-right: 120px;
+  /* margin-right: 120px; */
+  margin-bottom: 72px;
+  text-align: center;
 }
 
 .footer-logo {
@@ -404,14 +428,17 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  /* margin-left: 155px; */
 }
 .footer-logo-right {
   color: var(--cloud);
 }
 .footer-text {
-  width: 264px;
+  text-align: left;
+  max-width: 268px;
   height: 72px;
   margin-top: 16px;
+  /* margin-left: 80px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cornflover);
@@ -426,9 +453,16 @@ img {
   margin-bottom: 16px;
 }
 
+.footer-social {
+  margin-bottom: 72px;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center; */
+}
+
 .footer-social-list {
   display: flex;
-  justify-content: center;
   width: 208px;
   height: 40px;
   gap: 16px;
@@ -455,16 +489,22 @@ img {
 }
 
 .footer-subscribe {
-  margin-left: 80px;
+  /* margin-left: 80px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 
 .footer-form {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
 }
 
 .footer-email {
-  width: 264px;
+  width: 398px;
   height: 40px;
   padding-top: 8px;
   padding-bottom: 8px;
