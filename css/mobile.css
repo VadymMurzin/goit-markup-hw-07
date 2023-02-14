@@ -2,4 +2,24 @@
   .container {
     width: 428px;
   }
+
+  .advantages-container {
+    /* min-width: 428px; */
+  }
+
+  .team {
+    /* min-width: 428px; */
+  }
+
+  .customers-container {
+    /* min-width: 428px; */
+  }
+
+  .footer {
+    /* min-width: 428px; */
+  }
+
+  .footer-email {
+    width: 398px;
+  }
 }

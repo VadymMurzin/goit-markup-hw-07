@@ -95,7 +95,7 @@ img {
 
 .section-text {
   font-style: normal;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
   /* font-weight: 400; */
   font-weight: 500;
   font-size: 16px;
@@ -251,7 +251,7 @@ img {
 /* ----------------- ADVANTAGES ---------------------- */
 
 .advantages-container {
-  min-width: 428px;
+  /* min-width: 428px; */
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 0px;
@@ -263,8 +263,13 @@ img {
 
 .advantages-item {
   width: 100%;
-  /* display: list-item; */
-  column-gap: 72px;
+  margin-bottom: 72px;
+
+  /* column-gap: 72px; */
+}
+
+.advantages-item:last-child {
+  margin-bottom: 0;
 }
 
 .advantages-item-container {
@@ -280,7 +285,7 @@ img {
 /* ----------------- TEAM ---------------------- */
 
 .team {
-  min-width: 420px;
+  /* min-width: 420px; */
   background: var(--cloud);
 }
 
@@ -353,7 +358,7 @@ img {
 /* ----------------- CUSTOMERS ---------------------- */
 
 .customers-container {
-  min-width: 420px;
+  /* min-width: 420px; */
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -391,7 +396,7 @@ img {
 /* ----------------- FOOTER ---------------------- */
 
 .footer {
-  min-width: 428px;
+  /* min-width: 420px; */
   background-color: var(--navy-blue);
   padding-top: 96px;
   padding-bottom: 96px;
@@ -504,7 +509,8 @@ img {
 }
 
 .footer-email {
-  width: 398px;
+  /* width: 398px; */
+  width: 300px;
   height: 40px;
   padding-top: 8px;
   padding-bottom: 8px;

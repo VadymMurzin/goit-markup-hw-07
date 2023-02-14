@@ -34,7 +34,8 @@
     align-items: center;
     padding-left: 108px;
     padding-right: 0;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 64px;
   }
 
   .customers-list {
