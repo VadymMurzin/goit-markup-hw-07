@@ -3,20 +3,17 @@
     width: 428px;
   }
 
-  .advantages-container {
-    /* min-width: 428px; */
+  .mobile-menu-close {
+    left: 380px;
+    top: 24px;
   }
 
-  .team {
-    /* min-width: 428px; */
+  .menu-bar-tel {
+    font-size: 36px;
   }
 
-  .customers-container {
-    /* min-width: 428px; */
-  }
-
-  .footer {
-    /* min-width: 428px; */
+  .mobile-menu-social-list {
+    gap: 56px;
   }
 
   .footer-email {

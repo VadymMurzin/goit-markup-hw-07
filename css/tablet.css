@@ -9,8 +9,45 @@
     text-align: left;
   }
 
+  /* ----------------- HEADER ---------------------- */
+
+  .header-navigation {
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+    align-items: baseline;
+  }
+
+  .header-mobile {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    padding-bottom: 10px;
+  }
+
+  .current::after {
+    bottom: -38px;
+  }
+
+  .address-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap: 0;
+  }
+
+  /* ----------------- HERO ---------------------- */
+
+  .hero-title {
+    max-width: 500px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
   .advantages-list {
-    min-width: 768px;
+    min-width: 750px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -46,7 +83,7 @@
   /* ----------------- FOOTER ---------------------- */
 
   .footer {
-    min-width: 768px;
+    /* min-width: 768px; */
     /* padding-left: 0;
     padding-right: 0; */
     text-align: left;

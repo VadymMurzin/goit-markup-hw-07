@@ -13,6 +13,24 @@
     font-weight: 400;
   }
 
+  .header-navigation {
+    padding-left: 16px;
+    padding-right: 16px;
+    align-items: center;
+  }
+
+  .header {
+    padding-bottom: 24px;
+  }
+
+  .current::after {
+    bottom: -28px;
+  }
+
+  .address-navigation {
+    gap: 24px;
+  }
+
   /* ----------------- ADVANTAGES ---------------------- */
 
   .advantages {
@@ -29,6 +47,7 @@
 
   .advantages-item {
     min-width: 264px;
+    margin-bottom: 0;
   }
 
   .advantages-item-container {
@@ -60,7 +79,7 @@
   /* ----------------- TEAM ---------------------- */
 
   .team {
-    min-width: 1158px;
+    /* min-width: 1158px; */
   }
 
   .list-team {
@@ -75,7 +94,7 @@
   /* ----------------- FOOTER ---------------------- */
 
   .footer {
-    min-width: 1440px;
+    /* min-width: 1440px; */
     background-color: var(--navy-blue);
     padding-top: 100px;
     padding-left: 156px;
