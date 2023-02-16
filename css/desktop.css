@@ -13,6 +13,8 @@
     font-weight: 400;
   }
 
+  /* ----------------- HEADER ---------------------- */
+
   .header-navigation {
     padding-left: 16px;
     padding-right: 16px;
@@ -34,8 +36,6 @@
   /* ----------------- ADVANTAGES ---------------------- */
 
   .advantages {
-    /* padding-left: 0px;
-    padding-right: 0px; */
     padding-bottom: 0px;
   }
 
@@ -78,10 +78,6 @@
 
   /* ----------------- TEAM ---------------------- */
 
-  .team {
-    /* min-width: 1158px; */
-  }
-
   .list-team {
     display: flex;
     flex-wrap: nowrap;
@@ -94,7 +90,6 @@
   /* ----------------- FOOTER ---------------------- */
 
   .footer {
-    /* min-width: 1440px; */
     background-color: var(--navy-blue);
     padding-top: 100px;
     padding-left: 156px;
@@ -113,7 +108,6 @@
 
   .footer-studio {
     max-width: 264px;
-
     margin-right: 120px;
   }
 
@@ -131,7 +125,10 @@
     margin-left: 80px;
   }
 
-  .footer-form {
-    /* display: flex; */
+  /* ----------------- MODAL ---------------------- */
+
+  .modal {
+    width: 408px;
+    min-height: 584px;
   }
 }

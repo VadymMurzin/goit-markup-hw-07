@@ -3,6 +3,30 @@
     width: 428px;
   }
 
+  /* ----------------- HERO ---------------------- */
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-background-tablet.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-background-tablet-2x.jpg);
+    }
+  }
+
+  /* ----------------- HEADER-MOBILE-MENU ---------------------- */
+
   .mobile-menu-close {
     left: 380px;
     top: 24px;
@@ -15,6 +39,8 @@
   .mobile-menu-social-list {
     gap: 56px;
   }
+
+  /* ----------------- FOOTER ---------------------- */
 
   .footer-email {
     width: 398px;

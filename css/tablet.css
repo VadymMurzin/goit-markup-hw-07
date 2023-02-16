@@ -40,11 +40,33 @@
 
   /* ----------------- HERO ---------------------- */
 
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-background.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-background-2x.jpg);
+    }
+  }
+
   .hero-title {
     max-width: 500px;
     font-size: 56px;
     line-height: 1.07;
   }
+
+  /* ----------------- ADVANTAGES ---------------------- */
 
   .advantages-list {
     min-width: 750px;
@@ -83,9 +105,6 @@
   /* ----------------- FOOTER ---------------------- */
 
   .footer {
-    /* min-width: 768px; */
-    /* padding-left: 0;
-    padding-right: 0; */
     text-align: left;
     justify-content: center;
   }
@@ -119,5 +138,12 @@
 
   .footer-email {
     width: 264px;
+  }
+
+  /* ----------------- MODAL ---------------------- */
+
+  .modal {
+    width: 408px;
+    min-height: 586px;
   }
 }
