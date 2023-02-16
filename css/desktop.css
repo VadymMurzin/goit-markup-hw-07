@@ -93,6 +93,11 @@
     gap: 24px;
   }
 
+  .team-content {
+    min-width: 264px;
+    min-height: 104px;
+  }
+
   /* ----------------- FOOTER ---------------------- */
 
   .footer {
