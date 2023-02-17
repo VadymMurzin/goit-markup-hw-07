@@ -1,8 +1,10 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-
-    padding-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .section-suptitle {
@@ -18,6 +20,15 @@
     align-items: baseline;
   }
 
+  .address-navigation {
+    display: block;
+  }
+
+  .address-contacts {
+    font-size: 12px;
+    line-height: 1.33;
+  }
+
   .header-mobile {
     display: none;
   }
@@ -28,15 +39,15 @@
   }
 
   .current::after {
-    bottom: -38px;
+    bottom: -33px;
   }
-
+  /* 
   .address-navigation {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
     gap: 0;
-  }
+  } */
 
   /* ----------------- HERO ---------------------- */
 
@@ -45,7 +56,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-background.jpg);
+      url(../images/hero-background-tablet.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -56,7 +67,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/hero-background-2x.jpg);
+        url(../images/hero-background-tablet-2x.jpg);
     }
   }
 
@@ -91,15 +102,15 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    padding-left: 108px;
+    /* padding-left: 108px; */
     padding-right: 0;
     column-gap: 24px;
     row-gap: 64px;
   }
 
   .customers-list {
-    padding-left: 108px;
-    justify-content: left;
+    /* padding-left: 108px;
+    justify-content: left; */
   }
 
   /* ----------------- FOOTER ---------------------- */

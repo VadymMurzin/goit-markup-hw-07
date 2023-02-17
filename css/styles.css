@@ -34,9 +34,8 @@ ul {
 
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
-  width: 100%;
+  /* max-width: 100%;
+  width: 100%; */
 }
 
 .container {
@@ -266,6 +265,10 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.current-mobile-menu {
+  color: var(--ocean);
+}
+
 .menu-bar-link:hover,
 .menu-bar-link:focus {
   color: var(--ocean);
@@ -281,13 +284,13 @@ img {
   font-weight: 600;
   font-size: 27px;
   line-height: 1.11;
-  color: var(--slate);
+  color: var(--iris);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-bar-tel:hover,
 .menu-bar-tel:focus {
-  color: var(--iris);
+  color: var(--ocean);
 }
 
 .menu-bar-mail {
@@ -334,7 +337,7 @@ img {
 /* ----------------- HERO ---------------------- */
 
 .hero {
-  padding: 188px 0;
+  padding: 112px 0;
   background-color: var(--navy-blue);
   max-height: 600px;
   background-image: linear-gradient(
@@ -541,8 +544,8 @@ img {
   background-color: var(--navy-blue);
   padding-top: 96px;
   padding-bottom: 96px;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
