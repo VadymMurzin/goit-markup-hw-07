@@ -29,4 +29,14 @@
   .footer-email {
     width: 398px;
   }
+
+  /* ----------------- MODAL ---------------------- */
+
+  .modal {
+    width: 392px;
+  }
+
+  .modal-close {
+    left: 360px;
+  }
 }

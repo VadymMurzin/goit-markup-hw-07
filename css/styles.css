@@ -34,8 +34,6 @@ ul {
 
 img {
   display: block;
-  /* max-width: 100%;
-  width: 100%; */
 }
 
 .container {
@@ -406,10 +404,6 @@ img {
   padding-bottom: 0px;
 }
 
-.advantages-list {
-  max-width: 428px;
-}
-
 .advantages-item {
   width: 100%;
   margin-bottom: 72px;
@@ -544,8 +538,6 @@ img {
   background-color: var(--navy-blue);
   padding-top: 96px;
   padding-bottom: 96px;
-  /* padding-left: 15px;
-  padding-right: 15px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -831,7 +823,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 392px;
+  width: 300px;
   min-height: 586px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -842,7 +834,7 @@ img {
 
 .modal-close {
   position: absolute;
-  left: 360px;
+  left: 268px;
   top: 24px;
   background: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
