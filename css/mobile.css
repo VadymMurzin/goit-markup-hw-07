@@ -11,17 +11,18 @@
 
   /* ----------------- HEADER-MOBILE-MENU ---------------------- */
 
-  .mobile-menu-close {
-    left: 380px;
-    top: 24px;
-  }
-
   .menu-bar-tel {
     font-size: 36px;
   }
 
   .mobile-menu-social-list {
     gap: 56px;
+  }
+
+  /* ----------------- CUSTOMERS ---------------------- */
+
+  .customers-item {
+    width: 168px;
   }
 
   /* ----------------- FOOTER ---------------------- */

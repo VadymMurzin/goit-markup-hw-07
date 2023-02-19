@@ -43,6 +43,10 @@
     bottom: -33px;
   }
 
+  .mobile-menu-bar {
+    display: none;
+  }
+
   /* ----------------- HERO ---------------------- */
 
   .hero {
